@@ -1,0 +1,784 @@
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 46,
+  "app_name": "dd",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "asdf"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": "",
+  "app_name": "",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "allinone",
+  "data": {"cpu":4,"memory":4,"storage":5,"pvc":0},
+  "define_id": 10008,
+  "remark": "ccc"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": "",
+  "app_name": "",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "allinone",
+  "data": {"cpu":4,"memory":4,"storage":5,"pvc":0},
+  "define_id": 10008,
+  "remark": "ccc"
+}
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node4",
+      "approve_user": "",
+      "approve_admin": 0
+    }
+
+}
+
+<> 2020-12-23T021542.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "节点3",
+      "approve_user": "zhangjinjing",
+      "approve_admin": 0
+    }
+
+}
+
+<> 2020-12-23T021456.200.json
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 46,
+  "app_name": "dd",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "asdf"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 46,
+  "app_name": "dd",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "asdf"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 46,
+  "app_name": "dd",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "asdf"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+}
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+}
+
+<> 2020-12-23T013335.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+}
+
+<> 2020-12-23T013315.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+}
+
+<> 2020-12-23T013302.200.json
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster_name": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 26,
+  "app_name": "",
+  "ns_id": 24,
+  "ns_name": "quota",
+  "cluster_name": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "6"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
+
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T050200.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T050052.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "结点1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T050032.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "结点1",
+      "approve_user": "",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T045848.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "结点1",
+      "approve_user": "",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T045815.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "节点1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T045711.200.json
+
+###
+
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node1",
+      "approve_user": "cuijinrui,zhangjinjing",
+      "approve_admin": 0
+    }
+
+
+
+}
+
+<> 2020-12-22T045613.200.json
+
+###
+
+GET http://localhost:8080/workflow/api/v1/define/10001/node
+Accept: application/json
+
+<> 2020-12-22T044907.200.json
+
+###
+
+GET http://localhost:8080/workflow/api/v1/define/34/node
+Accept: application/json
+
+<> 2020-12-22T044853.200.json
+
+###
+
+GET http://localhost:8080/workflow/api/v1/define/34/node
+Accept: application/json
+
+<> 2020-12-22T044637.200.json
+
+###
+
+GET http://localhost:8080/workflow/api/v1/define/34/node
+Accept: application/json
+
+<> 2020-12-22T044545.200.json
+
+###
+

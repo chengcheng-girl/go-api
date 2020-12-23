@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b6974e0-3428-4cad-91e0-046535b6774d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ljQHdaydvOvVl2tlXpLiQUvcsw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Troila\go\src\fromework\modules" />
+      <recent name="C:\Users\Troila\go\src\fromework\modules\po" />
+      <recent name="C:\Users\Troila\go\src\fromework\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Troila\go\src\fromework\modules\qo" />
+      <recent name="C:\Users\Troila\go\src\fromework\modules\po" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;app_id&quot;: 46,&#10;  &quot;app_name&quot;: &quot;dd&quot;,&#10;  &quot;ns_id&quot;: 73,&#10;  &quot;ns_name&quot;: &quot;yxy&quot;,&#10;  &quot;cluster&quot;: &quot;sealos&quot;,&#10;  &quot;data&quot;: &quot;&quot;,&#10;  &quot;define_id&quot;: 10002,&#10;  &quot;remark&quot;: &quot;asdf&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;app_id&quot;: &quot;&quot;,&#10;  &quot;app_name&quot;: &quot;&quot;,&#10;  &quot;ns_id&quot;: 73,&#10;  &quot;ns_name&quot;: &quot;yxy&quot;,&#10;  &quot;cluster&quot;: &quot;allinone&quot;,&#10;  &quot;data&quot;: {&quot;cpu&quot;:4,&quot;memory&quot;:4,&quot;storage&quot;:5,&quot;pvc&quot;:0},&#10;  &quot;define_id&quot;: 10008,&#10;  &quot;remark&quot;: &quot;ccc&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node4&quot;,&#10;      &quot;approve_user&quot;: &quot;&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;节点3&quot;,&#10;      &quot;approve_user&quot;: &quot;zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;app_id&quot;: 26,&#10;  &quot;app_name&quot;: &quot;&quot;,&#10;  &quot;ns_id&quot;: 24,&#10;  &quot;ns_name&quot;: &quot;quota&quot;,&#10;  &quot;cluster&quot;: &quot;sealos&quot;,&#10;  &quot;data&quot;: &quot;&quot;,&#10;  &quot;define_id&quot;: 10002,&#10;  &quot;remark&quot;: &quot;6&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 999,&#10;  &quot;value&quot;: &quot;content&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;结点1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;结点1&quot;,&#10;      &quot;approve_user&quot;: &quot;&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;999&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;节点1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/10001/node" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/34/node" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/1005/node" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/1006/node" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;1&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;34&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: 0&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;34&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;&quot;&#10;    }&#10;&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;34&quot;,&#10;  &quot;items&quot;:&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;&quot;&#10;    }&#10;  &#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;34&quot;,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;34&quot;,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;true&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;34&quot;,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;0&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;59&quot;,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;0&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: &quot;0&quot;,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;0&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 4,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;0&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 4,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;cuijinrui,zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;0&quot;,&#10;      &quot;value&quot;: &quot;content&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 4,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;zhangjinjing&quot;,&#10;      &quot;approve_admin&quot;: &quot;&quot;,&#10;      &quot;value&quot;: &quot;content&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 4,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;zhangjinjing&quot;,&#10;&#10;      &quot;value&quot;: &quot;content&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;node_name&quot;: &quot;node1&quot;,&#10;      &quot;approve_user&quot;: &quot;zhangjinjing&quot;,&#10;&#10;      &quot;value&quot;: &quot;content&quot;&#10;    }&#10;  ]&#10;&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/id/node" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;node_name&quot;: &quot;node1&quot;,&#10;  &quot;approve_user&quot;: &quot;zhangjinjing&quot;,&#10;&#10;  &quot;value&quot;: &quot;content&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;node_name&quot;: &quot;node1&quot;,&#10;  &quot;approve_user&quot;: &quot;zhangjinjing&quot;,&#10;&#10;  &quot;value&quot;: &quot;content&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/id=34/node" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="34/node" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/id/node" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define/node" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="{" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="  &quot;id&quot;" />
+                <option name="value" value="1," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="  &quot;node_name&quot;" />
+                <option name="value" value="&quot;node1&quot;," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="  &quot;approve_user&quot;" />
+                <option name="value" value="&quot;zhangjinjing&quot;," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="  &quot;value&quot;" />
+                <option name="value" value="&quot;content&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="}" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;node_name&quot;: &quot;zhangjinjing&quot;,&#10;&#10;  &quot;value&quot;: &quot;content&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/workflow/api/v1/define" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build fromework">
+    <configuration name="go build fromework" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="fromework" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="web" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="fromework" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aa#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/tests/aa.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="aa#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/tests/aa.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="aa#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" path="$PROJECT_DIR$/tests/aa.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="aa#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/tests/aa.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build fromework" />
+      <item itemvalue="HTTP Request.aa#3" />
+      <item itemvalue="HTTP Request.aa#1" />
+      <item itemvalue="HTTP Request.aa#2" />
+      <item itemvalue="HTTP Request.aa#4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.aa#4" />
+        <item itemvalue="HTTP Request.aa#1" />
+        <item itemvalue="HTTP Request.aa#2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="353" key="#Go_Modules" timestamp="1608108294798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="353" key="#Go_Modules/0.0.1920.1040@0.0.1920.1040" timestamp="1608108294798" />
+    <state x="713" y="239" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608514661702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="239" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608514661702" />
+    <state x="516" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1608700191186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="516" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608700191186" />
+    <state x="757" y="376" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1608530548780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="376" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608530548780" />
+    <state width="899" height="466" key="DebuggerActiveHint" timestamp="1608543465833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="899" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608543465833" />
+    <state x="847" y="379" key="EnvironmentVariablesDialog" timestamp="1608108294231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="847" y="379" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608108294231" />
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom" timestamp="1608704861561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861561" />
+    <state width="1877" height="380" key="GridCell.Tab.0.center" timestamp="1608704861561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861561" />
+    <state width="1877" height="380" key="GridCell.Tab.0.left" timestamp="1608704861561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861561" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right" timestamp="1608704861561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861561" />
+    <state width="1877" height="350" key="GridCell.Tab.1.bottom" timestamp="1608704861587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861587" />
+    <state width="1877" height="350" key="GridCell.Tab.1.center" timestamp="1608704861587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861587" />
+    <state width="1877" height="350" key="GridCell.Tab.1.left" timestamp="1608704861587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861587" />
+    <state width="1877" height="350" key="GridCell.Tab.1.right" timestamp="1608704861587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608704861587" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;bool&quot;)(824638944072)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

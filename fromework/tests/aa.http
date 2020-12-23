@@ -1,0 +1,37 @@
+
+### GET request with parameter
+GET http://localhost:8080/workflow/api/v1/define/10001/node
+Accept: application/json
+
+###
+http://localhost:8080/workflow/api/v1/define
+
+
+###
+PUT http://localhost:8080/workflow/api/v1/define
+Content-Type: application/json
+
+{
+  "id": "999",
+  "items":
+    {
+      "node_name": "node4",
+      "approve_user": "",
+      "approve_admin": 0
+    }
+
+}
+###
+POST http://localhost:8080/workflow/api/v1/instance
+Content-Type: application/json
+
+{
+  "app_id": 46,
+  "app_name": "dd",
+  "ns_id": 73,
+  "ns_name": "yxy",
+  "cluster": "sealos",
+  "data": "",
+  "define_id": 10002,
+  "remark": "asdf"
+}
